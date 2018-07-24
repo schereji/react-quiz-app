@@ -1,0 +1,59 @@
+.start-quiz button,
+.end-quiz button {
+  padding: 20px 0;
+}
+.how-it-works, .score-breakdown {
+  height: 300px;
+}
+.how-it-works p,
+.score-breakdown p {
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px;
+}
+.modal-content {
+  text-align: center;
+  padding: 10px;
+}
+.modal-header p {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+}
+.modal-header .close {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+.modal-body.btn-group .btn.option-item-label {
+  border-radius: 0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.active {
+  font-weight: bold;
+}
+
+.active.correct  {
+  background-color: #3FCF67;
+}
+.active.incorrect {
+  background-color: #c31616;
+  color: #ffffff;
+}
+.end {
+  display: none;
+}
+
+.positive-score {
+  color: #3FCF67;
+  font-weight: bolder;
+}
+
+.quiz-info-container div {
+  display: inline-block;
+  float: left;
+  padding-right: 10px;
+}
